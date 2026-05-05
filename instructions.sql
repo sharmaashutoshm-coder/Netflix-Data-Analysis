@@ -126,8 +126,7 @@ virtualenv venv
 . venv/bin/activate
 
 -- install dbt snowflake
-pip install dbt-snowflake==1.9.0
-
+pip install dbt-snowflake
 -- create dbt profile
 -- mac
 mkdir ~/.dbt
